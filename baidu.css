@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+.header{
+    height: 60px;
+    line-height: 60px;
+}
+.header .nav{
+    list-style: none;
+}
+.header .nav::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.header .nav li{
+    float: right;
+    margin-right: 20px;
+}
+.header .nav .more{
+    margin-right: 10px;
+}
+.header .nav li a{
+    color: #333;
+    font-weight: 700;
+    font-size: 13px;
+}
+.header .nav li a:hover{
+    color: #00c;
+}
+.header .nav li .gray{
+        font-weight: 100;
+}
+.header .nav li .more{
+    background-color: #38f;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 4px;
+    color: #fff;
+
+}
+/*search*/
+.search{
+    margin-top: 50px;
+}
+.search .logo{
+    text-align: center;
+}
+
+.search .keyword{
+    margin-top: 20px;
+    text-align: center;
+}
+.search .keyword form div{
+    display: inline-block;
+}
+.search .keyword form .inpWapper{
+    position: relative;
+}
+.search .keyword form .inpWapper input{
+    width: 539px;
+    height: 36px;
+    border: 1px solid #38f;
+}
+.search .keyword form .inpWapper span{
+    position:absolute;
+    width: 30px;
+    height: 18px;
+    top: 20%;
+    right: 10px;
+    background-image: url("camera.png");
+    background-position: 0px 0px;
+}
+
+.search .keyword form .inpWapper span:hover{
+    cursor: pointer;
+}
+.search .keyword form .btnWapper{
+    vertical-align: top;
+}
+.search .keyword form .btnWapper input{
+    width: 100px;
+    height: 36px;
+    background-color: #3385ff;
+    cursor: pointer;
+    border: none;
+    margin-left: -5px;
+    color: #fff;
+}
